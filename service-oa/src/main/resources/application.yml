@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: service-oa
+  profiles:
+    active: dev
+
+  # SpringBoot整合Knife4j配置信息
+  # 问题解决：SpringBoot集成Knife4j启动失败
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
